@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="py-4 px-10 text-black justify-around bg-blue-100">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">PROSMILE</h1>
+            <button id="menu-btn" class="md:hidden block focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <ul id="menu"
+                class="hidden md:flex space-x-4 md:space-x-4 md:flex-row flex-col absolute md:static bg-blue-100 md:bg-transparent w-full md:w-auto left-0 top-12 md:top-auto text-center md:text-left font-semibold">
+                <li><a href="#" class="block px-4 py-2 md:inline-block hover:underline">Home</a></li>
+                <li><a href="#" class="block px-4 py-2 md:inline-block hover:underline">Services</a></li>
+                <li><a href="#" class="block px-4 py-2 md:inline-block hover:underline">Contact</a></li>
+                <li><a href="#" class="block px-4 py-2 md:inline-block hover:underline">Let's talk</a></li>
+            </ul>
+        </div>
+    </nav>
+<!--Hero section-->
+    <div class="bg-blue-100 py-20 px-10 text-black flex flex-col md:flex-row justify-between items-center gap-10">
+        <div class="w-full md:w-1/2 text-center md:text-left" >
+            <h1 class="text-3xl font-bold">Your Smile, Our Priority</h1>
+            <h2 class="text-2xl font-bold">Expert Dental Care, For a Healthier You</h2>
+            <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, inventore culpa? Dolorem et aliquam, dicta quos voluptates optio? Sit soluta nam iste, at tenetur suscipit. Laboriosam harum qui blanditiis et?</p>
+            <span class="my-4 flex flex-col sm:flex-row items-center gap-4 font-semibold">
+                <a href="#" class="text-sm p-2 rounded text-blue-400 border-2 border-blue-400 ">Get Started Today</a>
+                <p class="font-normal">or call us on</p>
+                <p> +234 8037593371</p>
+            </span>
+        </div>
+        <div class="w-full md:w-1/2">
+            <img src="https://images.unsplash.com/photo-1684607633251-8a4a8d94ddd2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsJTIwYmxhY2slMjBwZXJzb258ZW58MHx8MHx8fDA%3D" alt="" class="rounded-lg">
+        </div>
+    </div>
+    <!--Services-->
+    <div>
+        <h1 class="text-3xl font-bold text-center mt-4">Our Services</h1>
+        <h1 class="text-3xl font-semibold text-center my-4 px-2">Bright Smiles = Healthy Life </h1> 
+        <p class="text-center font-semibold">Your Journey to Perfect Oral Care Starts Here!</p> 
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 py-10">
+            <div class="p-4 rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1682300563210-93267a42c07e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVudGFsJTIwYmxhY2slMjBwZXJzb258ZW58MHx8MHx8fDA%3D" alt="" class="w-20">
+                <h2 class="text-2xl font-bold">Teeth Whitening</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+            <div class="p-4 rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1682299807890-7c5938980ef1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRlZXRofGVufDB8fDB8fHww" alt="" class="w-20">
+                <h2 class="text-2xl font-bold">Braces</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+            <div class="p-4 rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1704486435709-575060c98dd4?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVudGFsJTIwYmxhY2slMjBwZXJzb258ZW58MHx8MHx8fDA%3D" alt="" class="w-20">
+                <h2 class="text-2xl font-bold">Dental Implants</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+            <div class="p-4 rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1682270082955-4c1770867a88?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVudGFsfGVufDB8fDB8fHww" alt="" class="w-20">
+                <h2 class="text-2xl font-bold">Orthodentic Treatments</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+            <div class="p-4 rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1726048167976-2f85a2c2ca47?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlbnRhbHxlbnwwfHwwfHx8MA%3D%3D" alt="" class="w-20">
+                <h2 class="text-2xl font-bold">Root Canal Therapy</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+            <div class="p-4 rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1682303855710-eaf5f5389ca9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlbnRhbHxlbnwwfHwwfHx8MA%3D%3D" alt="" class="w-20">
+                <h2 class="text-2xl font-bold">Dental Care</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--About us-->
+    <div class="bg-blue-100 py-20 px-10 text-black flex flex-col md:flex-row justify-between items-center gap-10">
+        <div class="w-full md:w-1/2">
+            <img src="https://plus.unsplash.com/premium_photo-1672922646298-3afc6c6397c9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRlbnRpc3R8ZW58MHx8MHx8fDA%3D"
+                alt="" class="rounded-lg">
+        </div>
+        <div class="w-full md:w-1/2 text-left md:text-left">
+            <p class="text-blue-400 font-semibold">About Us</p>
+            <h1 class="text-3xl font-bold">About Our Dental Practice</h1>
+            <h2 class="text-2xl font-bold">Expert Dental Care, For a Healthier You</h2>
+            <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, inventore culpa? Dolorem et
+                aliquam, dicta quos voluptates optio? Sit soluta nam iste, at tenetur suscipit. Laboriosam harum qui
+                blanditiis et?</p>
+                <a href="#" class="text-sm p-2 rounded text-blue-400 border-2 border-blue-400 mt-5">Get in Touch</a>
+        </div>
+    </div>
+    <!--Why Us-->
+    <div >
+        <div class="text-center px-10">
+            <p class="text-blue-400 font-bold">Why Choose Us</p>
+            <h1 class="text-2xl font-bold">We care About Your Dental Health</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 py-10 px-10">
+            <div class="rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1682303855710-eaf5f5389ca9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlbnRhbHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="" class="w-20">
+                <h2 class="text-lg font-bold">Trusted Quality Care</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+            <div class="rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1682303855710-eaf5f5389ca9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlbnRhbHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="" class="w-20">
+                <h2 class="text-lg font-bold">Expert Dental Excellence</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+            <div class="rounded-lg">
+                <img src="https://plus.unsplash.com/premium_vector-1682303855710-eaf5f5389ca9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlbnRhbHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="" class="w-20">
+                <h2 class="text-lg font-bold">Expert Dental Consultation</h2>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+            </div>
+        </div>
+    </div>
+    <!--Testimonials-->
+    <div class="bg-blue-100 p-10">
+        <p class="text-center font-semibold text-blue-400">Testimonial</p>
+        <h1 class="text-center font-bold text-2xl">Our Patients Feedback</h1>
+       <div class="grid grid-cols-2 md:grid-cols-4 gap-5 py-10">
+        <div>
+            <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXQlMjBzbWlsaW5nfGVufDB8fDB8fHww" alt="" class="rounded-xl w-50">
+            <h2 class="text-lg font-bold">Bianca Sherks</h2>
+            <p class="text-sm">"Braces"</p>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1618298363483-e31a31f1a1e2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRyYWl0JTIwc21pbGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" class="rounded-xl w-50">
+            <h2 class="text-lg font-bold">Naomi Blinks</h2>
+            <p class="text-sm">"Teeth Whitening"</p>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1554727242-741c14fa561c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydHJhaXQlMjBzbWlsaW5nfGVufDB8fDB8fHww" alt="" class="rounded-xl w-50">
+            <h2 class="text-lg font-bold">Chika Okadigwe</h2>
+            <p class="text-sm">"Dental Implant"</p>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydHJhaXQlMjBzbWlsaW5nfGVufDB8fDB8fHww" alt="" class="rounded-xl w-50">
+            <h2 class="text-lg font-bold">Tobi Oluwa</h2>
+            <p class="text-sm">"Root Canal Therapy"</p>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Quisquam, voluptates.</p>
+        </div>
+       </div>
+    </div>
+    
+    <footer class="py-10">
+        <div class="text-black py-10 px-10 grid grid-cols-1 md:grid-cols-4 gap-2">
+            <div class="container mx-auto text-center">
+                <p class="text-2xl font-bold">ProSmile</p>
+            </div>
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-light py-2">Learn More</h2>
+                <a href="#"><p class="text-sm">About Us</p></a>
+                <a href="#"><p class="text-sm py-2">Our Services</p></a>
+                <a href="#"><p class="text-sm">Testimonial</p></a>
+            </div>
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-light py-2">Contact Us</h2>
+                <a href="#"><p class="text-sm py-2">prosmile@gmail.com</p></a>
+                <a href="#"><p class="text-sm">Tel: (+234) 9148569963</p></a>
+                <a href="#" class="text-sm py-2">Instagram</a> <br>
+                <a href="#" class="text-sm">Facebook</a>
+            </div>
+            <div class="container mx-auto text-center">
+                <h2 class="text-2xl font-light">Visit Us</h2>
+                <p class="text-sm py-2">94 Eziweka, Awada Onitsha, Anambra State.</p>
+                <p class="text-sm">15 Owerriaja, Trans-nkisi, Enugu State.</p>
+            </div>
+        </div>
+
+        <div>
+            <ul class="flex justify-center space-x-4 mt-4">
+                <li><a href="#" class="text-blue-400 hover:underline">Privacy Policy</a></li>
+                <li><a href="#" class="text-blue-400 hover:underline">Terms of Service</a></li>
+                <li><a href="#" class="text-blue-400 hover:underline">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="container mx-auto text-center">
+            <p class="text-sm">© 2023 PROSMILE. All rights reserved.</p>
+            <p class="text-sm">Designed by Your Name</p>
+        </div>
+    </footer>
+    <script>
+                document.getElementById("menu-btn").addEventListener("click", function() {
+                    document.getElementById("menu").classList.toggle("hidden");
+        });
+    </script>
+</body>
+
+</html>
